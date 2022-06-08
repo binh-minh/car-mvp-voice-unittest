@@ -17,3 +17,7 @@ set GOOGLE_APPLICATION_CREDENTIALS=KEY_PATH
 - Config dialogflow CX information in appConst.json
 
 - Run : node index.js
+- Test cases:
+    * Send a text and receive a text or list of text and audio file (optional from request).
+    * Send an audio file and receive a text or list of text and audio file (optional from request).
+    * Send a streaming file and receive a text or list of text and audio file (optional from request).
