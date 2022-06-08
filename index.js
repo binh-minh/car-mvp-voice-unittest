@@ -15,11 +15,12 @@ const seeFlowTestCase = require('./seeFlowTestCase')
 /*Detect intent with text input */
 conversationTestCase.conversationTest();
 
-/* test to send a audio file*/
+/* test to send an audio file*/
 /*Detect intent with audio file input*/
 audioFlowTestCase.audioFlowTest();
 
 /* test to send a text*/
+/*Detect intent with text input */
 seeFlowTestCase.seeFlowTest();
 
 /* test to send streaming*/
