@@ -1,0 +1,17 @@
+{
+  "name": "car-mvp-voice-unittest",
+  "version": "1.0.0",
+  "description": "This is a unit-test to interact API Google Dialogflow CX 3.0 to allow an end-user sends input to Dialogflow, and Dialogflow sends a response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "car-mvp-unitest"
+  },
+  "author": "Minh Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow-cx": "^2.15.0",
+    "file-saver": "^2.0.5",
+    "uuid": "^8.3.2",
+    "wav": "^1.0.2"
+  }
+}
